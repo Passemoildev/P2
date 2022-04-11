@@ -2,10 +2,12 @@
 
     <!--Je mets en place le style css-->
 
-<link rel="stylesheet" href="index.css"
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="C:\Users\ASUS-N56V\Documents\GitHub\P2\fontawesome-free-6.1.1-web\css\all.css">
+
 
    <head>
-    
+    <meta charset="utf-8" />
    </head>
 <body>
 
@@ -14,8 +16,8 @@
     <img src="C:\Users\ASUS-N56V\.vscode\Images\Web\Booki_grand.png"> <!--logo-->
     <nav>
 
-        <link rel="stylesheet" <a href="#Hébergements"> Hébergements</a>
-        <link rel="stylesheet" <a href="#Activités"> Activités</a>
+        <a href="#Hébergements">Hébergements</a>
+        <a href="#Activités">Activités</a>
 
     </nav>
    </header>
@@ -29,27 +31,142 @@
 
     </div>
 
+    <div id="recherche">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="search" id="ville"
+           placeholder="Où voulez-vous aller ?">
+        <button>Rechercher</button>
+    </div>
+
    <!-- Hébergements -->
-   <section id="Hébergements"
+   <section id="Hébergements">
+
+    <article>
+
+        <h1>Hébergements à Marseille</h1>
+
+        <table class="t1" id="t1"> 
+               
+
+            <tbody>
+                
+            <tr>
+                <td href="#" style="display:block;width:100%;height:100%;">
+                    <img src="C:\Users\ASUS-N56V\Documents\P2\images\heb\small\auberge_la_cannebiere.jpg">
+                    <a>Auberge La Cannebière<br>
+                    <a>Nuit à partir de <strong>25€</strong></a><br>
+                    <div class="jauge">
+                        <div class="stars">
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div></a></td>
+                <td>Hôtel du port<br>
+                    <a>Nuit à partir de <strong>52€</strong></a><br>
+                    <div class="jauge">
+                    <div class="stars">
+                    <i class="fa fa-star bleu"></i>
+                    <i class="fa fa-star bleu"></i>
+                    <i class="fa fa-star bleu"></i>
+                    <i class="fa fa-star bleu"></i>
+                    <i class="fa fa-star bleu"></i>
+                </div>
+            </div></td>
+                <td>Hôtel Les mouettes<br>
+                <a>Nuit à partir de <strong>76€</strong></a><br>
+                    <div class="jauge">
+                        <div class="stars">
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div></td>
+            </tr>
+
+            <tr>
+                <td>Hôtel de la mer<br>
+                <a>Nuit à partir de <strong>46€</strong></a><br>
+                    <div class="jauge">
+                        <div class="stars">
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div></td>
+                <td>Auberge le Panier<br>
+                <a>Nuit à partir de <strong>23€</strong></a><br>
+                    <div class="jauge">
+                        <div class="stars">
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div></td>
+
+                <td>Hôtel chez Amina<br>
+                <a>Nuit à partir de <strong>96€</strong></a><br>
+                    <div class="jauge">
+                        <div class="stars">
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                            <i class="fa fa-star bleu"></i>
+                        </div>
+                        
+                    </div></td>
+            </tr>
+
+            <tr>
+                <td><a href="#">Afficher plus</a></td>
+            </tr>
+            </tbody>
+
+        </table>
+
+    </article>
+
+    <aside>
+        <h1>Les plus populaires</h1>
+        <i class="fa-solid fa-chart-line-up"></i>   <!--logo-->
+
+        <table>
+
+            <tr>
+                <td>Hôtel Le soleil du matin</td>
+                <td>Au coeur de l'eau Chambres d'hôtes</td>
+                <td>Hôtel Tout bleu et blanc</td>
+            </tr>
+
+        </table>
+
+    </aside>
+
    </section> 
 
-   <!-- Les plus populaires -->
-   <section id="featured_content">
-   </section>
-
    <!-- Activités -->
-   <section id="Activités">
+   <section id="Activites">
+
    </section>
 
 </body>
    
    <footer>
 
-    <div class="A propos" id="A propos">
+    <div class="A_propos" >
         <h2>A propos</h2>
-        <a href="#">Fonctionnement du site</a><br />
-        <a href="#">Conditions générales de vente</a><br />
-        <a href="#">Données et confidentialité</a><br />
+        <a class= "1.1" href="#">Fonctionnement du site</a><br />
+        <a class= "1.2" href="#">Conditions générales de vente</a><br />
+        <a class= "1.3" href="#">Données et confidentialité</a><br />
     </div>
     <div class="Nos hébergements">
         <h2>Nos hébergements</h2>

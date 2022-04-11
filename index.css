@@ -13,6 +13,7 @@ font-size: 1em;
 body{
 
     font-family: 'Trebuchet MS', Raleway-Black, sans-serif;
+    font-size: 0.8em;
     
 }
 
@@ -40,4 +41,56 @@ section{
     padding-left: 3.5%;
 }
 
+a{
 
+    text-decoration: none;
+}
+
+button{
+
+    background-color: #0065FC;
+    color: white;
+    width: 9.5%;
+    height: 2.8%;
+}
+
+#Hébergements{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    background-color: #f2f2f2;
+}
+
+aside{
+    background-color: #f2f2f2;
+}
+
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+   .fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+/* Si elle porte en plus la classe '.bleu', elle sera en bleu. */
+.fa-star.bleu {
+	color: #0065FC;
+}
+
+/* Le parent global '.jauge' positionne le groupe des étoiles et le lien en colonne */
+.jauge {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+	/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+	.stars {
+		display: inline-flex;
+		justify-content: left;
+		font-size: 0.5em;
+	}
