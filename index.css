@@ -17,12 +17,26 @@ body{
     
 }
 
+.logo{
+
+    width:5%;
+    height: 2%;
+}
+
 header{
 
     justify-content: space-between;
     align-items: flex-end;
     display: flex;
     padding-left: 3.5%;
+    width: 100%;
+
+}
+
+.nav{
+
+display: flex;
+justify-content: space-between;
 
 }
 
@@ -58,14 +72,15 @@ button{
 
     display: flex;
     justify-content: space-between;
+    align-items: left;
+
+    
 }
 
 article{
     background-color: #f2f2f2;
-}
-
-aside{
-    background-color: #f2f2f2;
+    width: 60%;
+    
 }
 
 /* Par défaut, une étoile est en gris,
@@ -84,7 +99,7 @@ aside{
 .jauge {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-self: flex-end;
 }
 
 	/* Le groupe '.stars' positionne les étoiles
@@ -92,5 +107,147 @@ aside{
 	.stars {
 		display: inline-flex;
 		justify-content: left;
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
+
+aside{
+
+    width: 30%;
+    background-color: #f2f2f2;
+}
+
+.aff{
+
+    align-self: flex-end;
+    justify-self: flex-start;
+
+}
+
+.filtres{
+
+    display: flex;
+    width: 66%;
+}
+
+.rond{
+
+    background-color: #DEEBFF;
+}
+
+.tab{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+.cell{
+
+    margin-right: 12px;
+    width: 33%;
+    list-style: none;
+    border-color: white;
+    border: 4px;
+    
+}
+
+.slot{
+
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 180px;
+    background-color: #FFFFFF;
+    margin: 30px;
+    border: 3px, white;
+    border-radius: 10px;
+
+}
+
+.miniature{
+
+height: 100px;
+width: 215px;
+
+}
+
+.minia{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #FFFFFF;
+    border-top: 4px, white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px 4px 0 4px;
+}
+
+.minia_pop{
+
+    height: 120px;
+    width: 120px;
+
+}
+
+.img_pop{
+
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #FFFFFF;
+    padding: 4px, #FFFFFF;
+    
+
+}
+
+.pop{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre_pop{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell_pop{
+
+    width: 100%;
+    list-style: none;
+    border-color: white;
+    border: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.slot_pop{
+
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    height: 130px;
+    background-color: white;
+    border: #FFFFFF, -4px;
+    border-radius: 10px;
+    
+
+}
+
+.tab_pop {
+
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+.descript_pop{
+
+    padding-left: 20px;
+
+}
