@@ -1,25 +1,24 @@
-<html>
+<!DOCTYPE html>
+
+<html lang="fr">
 
     <!--Je mets en place le style css-->
-
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
-<!--<link rel="stylesheet" href="normalize.css">-->
-
 
 <head>
     <meta charset="utf-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <title>Booki</title>
 </head>
 <body class="body">
 
 <!-- Header -->
 <header>
-    <meta charset="utf-8" />
     <a class="cont_logo" href="index.html">
-        <img src="C:\Users\ASUS-N56V\.vscode\Images\Web\Booki_grand.png" class="logo"   > <!--logo--></a>
+        <img src="./images/logo/Booki.png" alt="logo" class="logo"> <!--logo--></a>
 
     <nav>
     
@@ -30,26 +29,26 @@
     
 </header>
 
-    <div class="corps">
+<div class="corps">
 
-        <div>
+    <div>
 
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
             <p>En plein centre ville ou en pleine nature</p>
 
-        </div>
+    </div>
 
-        <form id="recherche" class="recherche">
+    <form id="recherche" class="recherche">
             <span class="span_location">
                 <i class="fa-solid fa-location-dot"></i>
             </span>
             <input type="search" id="ville" class="ville"
             placeholder="Où voulez-vous aller ?">
             <button class="bt_search">Rechercher</button>
-        </form>
+    </form>
 
-        <div class="filtres">
+    <div class="filtres">
 
             <h2>Filtres</h2>
 
@@ -61,11 +60,11 @@
 
                     </div>
 
-                    <span class="type_filtre">
+                    <div class="type_filtre">
 
                         <h2>Economique</h2>
 
-                    </span>
+                    </div>
                 </a>
             </div>
 
@@ -77,11 +76,11 @@
 
                     </div>
 
-                    <span class="type_filtre">
+                    <div class="type_filtre">
 
                         <h2>Familial</h2>
 
-                    </span>
+                    </div>
                 </a>
 
             </div>
@@ -94,11 +93,11 @@
 
                     </div>
 
-                    <span class="type_filtre">
+                    <div class="type_filtre">
 
                         <h2>Romantique</h2>
 
-                    </span>
+                    </div>
                 </a>
             </div>
 
@@ -110,23 +109,20 @@
 
                     </div>
 
-                    <span class="type_filtre">
+                    <div class="type_filtre">
 
                         <h2>Animaux autorisés</h2>
 
-                    </span>
+                    </div>
                 </a>
             </div>
 
-        </div>
+    </div>
 
 
-        <div>
-
-            <i class="fa-light fa-circle-info"></i>
-            <a>Plus de 500 logements sont disponibles dans cette ville</a>
-
-        </div>
+    <div class="paragraphe">
+            <p><i class="fa-light fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
 
                                                     <!-- Hébergements -->
     <section id="Hébergements">
@@ -135,14 +131,13 @@
 
             <div class="cont_heb">
             
-                <h1>Hébergements à Marseille</h1>
+                <h2>Hébergements à Marseille</h2>
                 
                 <div class="tab">
-
                     
                         <a class="carte_heb" href="#"><div class="slot">
                             <div class="miniature">
-                                <img src="C:\Users\ASUS-N56V\Documents\P2\images\heb\small\auberge_la_cannebiere.jpg" class="minia">
+                                <img src="./images/hebergements/4_small/auberge_la_cannebiere.jpg" class="minia">
                                 <h2>Auberge La Cannebière</h2>
                                 <div class="text_star">  
                                     <p>Nuit à partir de <strong>25€</strong></p>
@@ -159,11 +154,9 @@
                             </div>
                         </div></a>
                     
-
-                    
                         <a class="carte_heb" href="#"><div class="slot">
                             <div class="miniature">
-                            <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\hotel_du_port.jpg" class="minia">
+                            <img src="./images/hebergements/4_small/hotel_du_port.jpg" class="minia">
                             <h2>Hôtel du port</h2>
                             <p>Nuit à partir de <strong>52€</strong></p>
                             <div class="jauge">
@@ -181,7 +174,7 @@
 
                         <a class="carte_heb" href="#"><div class="slot">
                             <div class="miniature">
-                                <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\hotel_les_mouettes.jpg" class="minia">
+                                <img src="./images/hebergements/4_small/hotel_les_mouettes.jpg" class="minia">
                                 <h2>Hôtel Les mouettes</h2>
                                 <p>Nuit à partir de <strong>76€</strong></p>
                                     <div class="jauge">
@@ -198,7 +191,7 @@
 
                         <a class="carte_heb" href="#"><div class="slot">
                             <div class="miniature">
-                                <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\hotel_de_la_mer.jpg" class="minia">
+                                <img src="./images/hebergements/4_small/hotel_de_la_mer.jpg" class="minia">
                                 <h2>Hôtel de la mer</h2>
                                 <p>Nuit à partir de <strong>46€</strong></p>
                                 <div class="jauge">
@@ -215,7 +208,7 @@
 
                         <a class="carte_heb" href="#"><div class="slot">
                             <div class="miniature">
-                                <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\le_panier.jpg" class="minia">
+                                <img src="./images/hebergements/4_small/le_panier.jpg" class="minia">
                                     <h2>Auberge le Panier</h2>
                                     <p>Nuit à partir de <strong>23€</strong></p>
                                     <div class="jauge">
@@ -233,7 +226,7 @@
 
                             <a class="carte_heb" href="#"><div class="slot">
                                 <div class="miniature">
-                                <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\chez_amina.jpg" class="minia">
+                                <img src="./images/hebergements/4_small/chez_amina.jpg" class="minia">
                                 <h2>Hôtel chez Amina</h2>
                                 <p>Nuit à partir de <strong>96€</strong></p>
                                 <div class="jauge">
@@ -274,7 +267,7 @@
                     <a class="carte_heb" href="#"><div class="cell_pop">
                     <div class="slot_pop">
                         <div class="minia_pop">
-                            <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\le_soleil_du_matin.jpg" class="img_pop"></div>
+                            <img src="./images/hebergements/4_small/le_soleil_du_matin.jpg" class="img_pop"></div>
                             <div class="descript_pop">
                                 <div class="heb_prix_pop">
                                     <h2>Hôtel Le soleil du matin</h2>
@@ -295,7 +288,7 @@
                 <a class="carte_heb" href="#"><div class="cell_pop">
                     <div class="slot_pop">
                         <div class="minia_pop">
-                            <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\au_coeur_de_l_eau_chambre_d_hote.jpg" class="img_pop"></div>
+                            <img src="./images/hebergements/4_small/au_coeur_de_l_eau_chambre_d_hote.jpg" class="img_pop"></div>
                             <div class="descript_pop">
                                 <div class="heb_prix_pop">
                             <h2>Au coeur de l'eau <br> Chambres d'hôtes</h2>
@@ -311,12 +304,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div></a>
 
                 <a class="carte_heb" href="#"><div class="cell_pop">
                     <div class="slot_pop">
                         <div class="minia_pop">
-                            <img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="img_pop"></div>
+                            <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="img_pop"></div>
                             <div class="descript_pop">
                                 <div class="heb_prix_pop">
                                 <h2>Hôtel Tout bleu et blanc</h2>
@@ -331,17 +324,12 @@
                                     </div>
                                 </div>
                             </div>
-                        
                     </div>
-                </div>
+                </div></a>
             </div>    
-                        
             </div>
-            
-
         </aside>
-
-    </section> 
+    </section>
 
                                                     <!-- Activités -->
 
@@ -355,59 +343,81 @@
            
                 <div class="colonne_full">
 
-                    <div class="carte_act_full">
-
-                        <div class="img_act_full"><img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\activites\4_small\vieu_port.jpg" class="mini_act"></div>
-                        <div class="text_act"><h2>Vieux Port</h2></div>
-
-                    </div>
+                    <a href="#" class="lien_activity">
+                        <div class="carte_act_full">
+                            <div class="img_act_full"><img src="./images/activites/4_small/vieu_port.jpg" class="mini_act"></div>
+                            <div class="text_act"><h2>Vieux Port</h2></div>
+                        </div>
+                    </a>
 
                 </div>
 
-                    <div class="colonne_split">
+                    
+                
+                <div class="colonne_split">
                         
+                    <a href="#" class="lien_activity">
+     
+                    
                         <div class="carte_act_66p">
 
-                            <div class="img_act_160px"><img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\activites\4_small\port_pomegues.jpg" class="mini_act"></div>
+                            <div class="img_act_160px"><img src="./images/activites/4_small/port_pomegues.jpg" class="mini_act"></div>
                             <div class="text_act"><h2>Fort de Pomègues</h2></div>
 
                         </div>
 
+                    </a>
+
+                    <a href="#" class="lien_activity">
+                    
                         <div class="carte_act_33p">
 
-                            <div class="img_act_100px"><img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\activites\4_small\iles_frioul.jpg" class="mini_act"></div>
+                            <div class="img_act_100px"><img src="./images/activites/4_small/iles_frioul.jpg" class="mini_act"></div>
                             <div class="text_act"><h2>Iles du Frioul</h2></div>
 
                         </div>
 
-                    </div>
+                    </a>
+
+                </div>
 
                 <div class="colonne_full">
                 
-                    <div class="carte_act_full">
+                    <a href="#" class="lien_activity">
 
-                        <div class="img_act_full"><img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\activites\4_small\calanques.jpg" class="mini_act"></div>
-                        <div class="text_act"><h2>Parc National des Calanques</h2></div>
+                    
+                        <div class="carte_act_full">
 
-                    </div>
+                            <div class="img_act_full"><img src="./images/activites/4_small/calanques.jpg" class="mini_act"></div>
+                            <div class="text_act"><h2>Parc National des Calanques</h2></div>
+
+                        </div>
+
+                    </a>
 
                 </div>
 
                 <div class="colonne_split">
 
-                    <div class="carte_act_45p">
+                    <a href="#" class="lien_activity">
+    
+                        
+                        <div class="carte_act_45p">
 
-                        <div class="img_act_125px"><img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\activites\4_small\notre_dame.jpg" class="mini_act"></div>
-                        <div class="text_act"><h2>Notre-Dame-de-la-Garde</h2></div>
+                            <div class="img_act_125px"><img src="./images/activites/4_small/notre_dame.jpg" class="mini_act"></div>
+                            <div class="text_act"><h2>Notre-Dame-de-la-Garde</h2></div>
 
-                    </div>
+                        </div>
 
-                    <div class="carte_act_55p">
+                        <div class="carte_act_55p">
 
-                        <div class="img_act_140px"><img src="C:\Users\ASUS-N56V\Documents\P2\Ressources\images\activites\4_small\parc_longchamps.jpg" class="mini_act"></div>
-                        <div class="text_act"><h2>Parc Longchamps</h2></div>
+                            <div class="img_act_140px"><img src="./images/activites/4_small/parc_longchamps.jpg" class="mini_act"></div>
+                            <div class="text_act"><h2>Parc Longchamps</h2></div>
 
-                    </div>
+                        </div>
+
+                    </a>
+
                 </div>
                 
             </div>
@@ -415,11 +425,9 @@
 
     </section>
 </div>
-</body>
 
 <footer>
-
-    <div class="A_propos" >
+    <div class="A_propos">
         <h2>A propos</h2>
         <a class= "1.1" href="#">Fonctionnement du site</a><br />
         <a class= "1.2" href="#">Conditions générales de vente</a><br />
@@ -438,6 +446,6 @@
 
 </footer>
 
-
+</body>
 
 </html>

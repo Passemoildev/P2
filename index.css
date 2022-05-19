@@ -126,6 +126,8 @@ nav{
     
 }
 
+
+
 .cont_heb{
 
     padding: 32px 16px 32px 16px;
@@ -201,6 +203,7 @@ article{
     padding: 4px 4px 0 4px;
     margin: 16px;
     box-shadow: 1px 1px 6px black;
+    text-decoration: none;
 
 }
 
@@ -228,6 +231,10 @@ width: 215px;
 
 .carte_heb:visited{
     color: black;
+}
+
+.carte_heb{
+    text-decoration: none;
 }
 
 .text_star{
@@ -284,8 +291,7 @@ aside{
     width: 66%;
     flex-wrap: wrap;
     align-items: center;
-    height: 50px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     
 }
 
@@ -337,6 +343,8 @@ aside{
 .bloc_filtre{
     display: flex;
     align-items: center;
+    text-decoration: none;
+
 }
 
 .bloc_filtre:hover{
@@ -551,6 +559,11 @@ aside{
 .img_act_140px{
     height: 140px;
 }
+
+.lien_activity{
+    text-decoration: none;
+}
+
 } /* fermeture media queries desktop*/
 
 @media all and (min-width:768px) and (max-width:992px) {
@@ -565,6 +578,7 @@ aside{
         h2{
             font-size: 1em;
             display: block;
+            color: black;
         }
         
         p{margin: 0%;}
@@ -839,8 +853,8 @@ aside{
             width: 66%;
             flex-wrap: wrap;
             align-items: center;
-            height: 50px;
-            margin-bottom: 30px;
+            padding-bottom: 30px;
+
             
         }
         
@@ -892,6 +906,7 @@ aside{
         .bloc_filtre{
             display: flex;
             align-items: center;
+            text-decoration: none;
         }
         
         .bloc_filtre:hover{
@@ -1106,6 +1121,10 @@ aside{
         .img_act_140px{
             height: 140px;
         }
+
+        .lien_activity{
+            text-decoration: none;
+        }
         
 }
 
@@ -1119,8 +1138,10 @@ aside{
         }
         
         h2{
-            font-size: 1em;
+            font-size: 1.2em;
             display: block;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
         
         p{margin: 0%;}
@@ -1260,12 +1281,19 @@ aside{
         
             background-color: #f2f2f2;
             display: flex;
+            flex-direction: column;
             justify-content: space-around;
             width: 100%;
-            padding: 0;
             margin-top: 80px;    
         
         }
+
+        .A_propos{
+            padding: 10px;
+        }
+
+        
+
         
         a{
         
@@ -1350,6 +1378,7 @@ aside{
         .carte_heb{
 
             width: 90%;
+            text-decoration: none;
         }
 
         .carte_heb:link{
@@ -1414,8 +1443,7 @@ aside{
             width: 66%;
             flex-wrap: wrap;
             align-items: center;
-            height: 50px;
-            margin-bottom: 30px;
+            padding-bottom: 30px;
             
         }
         
@@ -1467,6 +1495,8 @@ aside{
         .bloc_filtre{
             display: flex;
             align-items: center;
+            text-decoration: none;
+
         }
         
         .bloc_filtre:hover{
@@ -1607,29 +1637,34 @@ aside{
             border-radius: 10px;
             box-shadow: 1px 1px 6px #f2f2f2;
             max-width: 330px;
+            margin-bottom: 25px;
         
         }
         
         .carte_act_66p{
         
             width: 100%;
-            height: 210px;
+            height: 190px;
             border: white 3px;
             border-radius: 10px;
             box-shadow: 1px 1px 6px #f2f2f2;
             margin-bottom: 40px;
             max-width: 330px;
+            margin-bottom: 25px;
+
         
         }
         
         .carte_act_33p{
         
             width: 100%;
-            height: 150px;
+            height: 190px;
             border: white 3px;
             border-radius: 10px;
             box-shadow: 1px 1px 6px #f2f2f2;
             max-width: 330px;
+            margin-bottom: 25px;
+
         
         }
         
@@ -1641,18 +1676,22 @@ aside{
             border-radius: 10px;
             box-shadow: 1px 1px 6px #f2f2f2;
             max-width: 330px;
+            margin-bottom: 25px;
+
         
         }
         
         .carte_act_45p{
         
             width: 100%;
-            height: 175px;
+            height: 190px;
             border: white 3px;
             border-radius: 10px;
             box-shadow: 1px 1px 6px #f2f2f2;
             margin-bottom: 35px;
             max-width: 330px;
+            margin-bottom: 25px;
+
         
         }
         
@@ -1669,25 +1708,32 @@ aside{
         .text_act{
             min-height: 2em;
             padding-left: 10px;
-            height: 50px;
-            justify-content: center;
+            height: 55px;
+            display: flex;
+            align-items: center;
+
         }
         
         .img_act_full{
-            height: 350px;
+            height: 135px;
         }
         .img_act_160px{
-            height: 160px;
+            height: 135px;
         }
         .img_act_100px{
-            height: 100px;
+            height: 135px;
         }
         .img_act_125px{
-            height: 125px;
+            height: 135px;
         }
         .img_act_140px{
-            height: 140px;
+            height: 135px;
         }
+
+        .lien_activity{
+            text-decoration: none;
+        }
+
         
 
 }
