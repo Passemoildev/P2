@@ -1,4 +1,12 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
 @media screen and (min-width:998px) {
+
+
 
 h1{
 
@@ -8,8 +16,14 @@ font-weight: bold;
 }
 
 h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+
     font-size: 1em;
-    display: block;
+    display: block; 
 }
 
 p{margin: 0%;}
@@ -42,7 +56,8 @@ header{
     background-color: white;
     height: 50px;
     z-index: 9999;
-    padding: 0 50 0 50;
+    padding-right: 50px;
+    padding-left: 50px;
     
 
 }
@@ -58,26 +73,27 @@ nav{
 .cont_link_heb{
 
     width: 50%;
+
+    padding: 10px;
 }
 
 .lien_heb:hover{
 
     color: #0065FC;
-    border-top:#0065FC, 1px;
+    border-top:#0065FC 1px;
     
 }
 
 .lien_heb:active{
 
     color: #0065FC;
-    border-top:#0065FC, 1px;
-    
+    border-top:#0065FC 1px solid;    
 }
 
 .lien_act:hover{
 
     color: #0065FC;
-    border-top:#0065FC, 1px;
+    border-top:#0065FC 1px;
     
 }
 
@@ -87,6 +103,8 @@ nav{
     max-width: 100%;
     border-color: transparent;
     border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .span_location{
@@ -122,7 +140,8 @@ nav{
 
     position:relative;
     top: 50px;
-    padding: 0 50 0 50;
+    padding-right: 50px;
+    padding-left: 50px;
     
 }
 
@@ -156,7 +175,7 @@ a{
 
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items:flex-start;
     margin-top: 40px;
     flex-wrap: wrap;
 
@@ -198,7 +217,7 @@ article{
     width: 215px;
     height: 180px;
     background-color: #FFFFFF;
-    border: 3px, white;
+    border: 3px  white;
     border-radius: 10px;
     padding: 4px 4px 0 4px;
     margin: 16px;
@@ -220,7 +239,7 @@ width: 215px;
     height: 100%;
     object-fit: cover;
     background-color: #FFFFFF;
-    border-top: 4px, white;
+    border-top: 4px white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -288,7 +307,7 @@ aside{
 .filtres{
 
     display: flex;
-    width: 66%;
+    width: 80%;
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 30px;
@@ -301,7 +320,7 @@ aside{
     display: flex;
     align-items: center;
     margin: -2px;
-    border: 2px, solid, #d9d9d9;
+    border: 2px solid #d9d9d9;
     border-radius: 100%;
     height: 50px;
     width: 50px;
@@ -371,7 +390,7 @@ aside{
     height: 100%;
     object-fit: cover;
     background-color: #FFFFFF;
-    padding: 4px, #FFFFFF;
+    padding: 4px ;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     border: 1px white;
@@ -411,7 +430,7 @@ aside{
     width: 310px;
     height: 130px;
     background-color: white;
-    border: #FFFFFF, -4px;
+    border: #FFFFFF 4px;
     border-radius: 10px;
     padding-bottom: 3%;
     
@@ -566,6 +585,20 @@ aside{
 
 } /* fermeture media queries desktop*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (min-width:768px) and (max-width:992px) {
 
     h1{
@@ -575,10 +608,15 @@ aside{
             
         }
         
-        h2{
+    h3{
             font-size: 1em;
             display: block;
             color: black;
+        }
+
+    h2{
+            font-size: 20px;
+            font-weight: bold;
         }
         
         p{margin: 0%;}
@@ -611,8 +649,9 @@ aside{
             background-color: white;
             height: 50px;
             z-index: 9999;
-            padding: 0 50 0 50;
-            
+            padding-left: 50px;
+            padding-right: 50px;
+
         
         }
         
@@ -632,21 +671,21 @@ aside{
         .lien_heb:hover{
         
             color: #0065FC;
-            border-top:#0065FC, 1px;
+            border-top:#0065FC 1px;
             
         }
         
         .lien_heb:active{
         
             color: #0065FC;
-            border-top:#0065FC, 1px;
+            border-top:#0065FC 1px;
             
         }
         
         .lien_act:hover{
         
             color: #0065FC;
-            border-top:#0065FC, 1px;
+            border-top:#0065FC 1px;
             
         }
         
@@ -656,6 +695,8 @@ aside{
             max-width: 100%;
             border-color: transparent;
             border-radius: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         
         .span_location{
@@ -691,7 +732,8 @@ aside{
         
             position:relative;
             top: 50px;
-            padding: 0 50 0 50;
+            padding-left: 50px;
+            padding-right: 50px;
             
         }
         
@@ -723,7 +765,7 @@ aside{
         
             display: flex;
             justify-content: space-between;
-            align-items: left;
+            align-items: flex-start;
             margin-top: 40px;
             flex-wrap: wrap;
         
@@ -765,7 +807,7 @@ aside{
             width: 215px;
             height: 180px;
             background-color: #FFFFFF;
-            border: 3px, white;
+            border: 3px white;
             border-radius: 10px;
             padding: 4px 4px 0 4px;
             margin: 16px;
@@ -786,7 +828,7 @@ aside{
             height: 100%;
             object-fit: cover;
             background-color: #FFFFFF;
-            border-top: 4px, white;
+            border-top: 4px white;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
@@ -864,7 +906,7 @@ aside{
             display: flex;
             align-items: center;
             margin: -2px;
-            border: 2px, solid, #d9d9d9;
+            border: 2px solid #d9d9d9;
             border-radius: 100%;
             height: 50px;
             width: 50px;
@@ -933,7 +975,7 @@ aside{
             height: 100%;
             object-fit: cover;
             background-color: #FFFFFF;
-            padding: 4px, #FFFFFF;
+            padding: 4px ;
             border-bottom-left-radius: 10px;
             border-top-left-radius: 10px;
             border: 1px white;
@@ -973,7 +1015,7 @@ aside{
             width: 310px;
             height: 130px;
             background-color: white;
-            border: #FFFFFF, -4px;
+            border:  4px;
             border-radius: 10px;
             padding-bottom: 3%;
             
@@ -1128,6 +1170,20 @@ aside{
         
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width:768px) {
 
     h1{
@@ -1137,11 +1193,16 @@ aside{
             
         }
         
-        h2{
+        h3{
             font-size: 1.2em;
             display: block;
             margin-top: 0px;
             margin-bottom: 0px;
+        }
+
+        h2{
+            font-size: 20px;
+            font-weight: bold;
         }
         
         p{margin: 0%;}
@@ -1166,7 +1227,6 @@ aside{
             align-items: center;
             display: flex;
             flex-direction: column;
-            
             width: 100%;
             position: fixed;
             top: 0px;
@@ -1175,7 +1235,6 @@ aside{
             background-color: white;
             height: 50px;
             z-index: 9999;
-            padding: 0 50 0 50;
             
         
         }
@@ -1193,32 +1252,36 @@ aside{
             width: 50%;
             justify-content: center;
             text-align: center;
+            border-bottom: 2px;
+            border: #0065FC;
         }
 
         
 
         .lien_heb{
             justify-content: center;
+            border-bottom: 2px;
+            border: #0065FC;
         }
         
         .lien_heb:hover{
         
             color: #0065FC;
-            border-top:#0065FC, 1px;
+            border-top:#0065FC 1px;
             
         }
         
         .lien_heb:active{
         
             color: #0065FC;
-            border-top:#0065FC, 1px;
+            border-top:#0065FC 1px;
             
         }
         
         .lien_act:hover{
         
             color: #0065FC;
-            border-top:#0065FC, 1px;
+            border-top:#0065FC 1px;
             
         }
         
@@ -1266,7 +1329,8 @@ aside{
         
             position:relative;
             top: 50px;
-            padding: 0 20 0 20;
+            padding-left: 20px;
+            padding-right: 20px;
             
         }
         
@@ -1305,7 +1369,7 @@ aside{
         
             display: flex;
             justify-content: space-between;
-            align-items: left;
+            align-items: flex-start;
             margin-top: 40px;
             flex-wrap: nowrap;
             flex-direction: column-reverse;
@@ -1349,7 +1413,7 @@ aside{
             width: 100%;
             height: 200px;
             background-color: #FFFFFF;
-            border: 3px, white;
+            border: 3px white;
             border-radius: 10px;
             padding: 4px 4px 0 4px;
             margin-bottom: 16px;
@@ -1370,7 +1434,7 @@ aside{
             height: 100%;
             object-fit: cover;
             background-color: #FFFFFF;
-            border-top: 4px, white;
+            border-top: 4px white;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
         }
@@ -1440,7 +1504,7 @@ aside{
         .filtres{
         
             display: flex;
-            width: 66%;
+            width: 100%;
             flex-wrap: wrap;
             align-items: center;
             padding-bottom: 30px;
@@ -1453,7 +1517,7 @@ aside{
             display: flex;
             align-items: center;
             margin: -2px;
-            border: 2px, solid, #d9d9d9;
+            border: 2px solid #d9d9d9;
             border-radius: 100%;
             height: 50px;
             width: 50px;
@@ -1523,7 +1587,7 @@ aside{
             height: 100%;
             object-fit: cover;
             background-color: #FFFFFF;
-            padding: 4px, #FFFFFF;
+            padding: 4px ;
             border-bottom-left-radius: 10px;
             border-top-left-radius: 10px;
             border: 1px white;
@@ -1564,7 +1628,7 @@ aside{
             width: 100%;
             height: 130px;
             background-color: white;
-            border: #FFFFFF, -4px;
+            border: 4px;
             border-radius: 10px;
             padding-bottom: 3%;
             
