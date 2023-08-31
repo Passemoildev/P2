@@ -1,0 +1,1889 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.icon_search{
+    display: none;
+}
+form{
+
+    padding-top: 10px;
+}
+
+p{margin: 0%;}
+
+body{
+
+    font-size: 0.8em;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    
+    
+}
+
+.lien_heb:hover{
+
+    color: #0065FC;
+}
+
+.lien_act:hover{
+
+    color: #0065FC;
+    
+}
+
+
+.logo{
+        
+            
+    height: 35px;
+}
+
+.btn_search_mob{
+    display:none
+}
+
+
+
+.slot_pop{
+        
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    background-color: white;
+    border:  4px;
+    border-radius: 10px;
+    padding-bottom: 7px;
+    
+
+}
+
+
+.cont_link_act{
+
+    width: 50%;
+}
+
+
+@media screen and (min-width:998px) {
+
+    header{
+
+        justify-content: space-between;
+        align-items: flex-end;
+        display: flex;
+        background-color: white;
+        height: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        
+    }
+
+    nav{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20%;
+        height: 100%;
+    }
+
+    .cont_link_heb{
+
+        width: 50%;
+        height: 100%;
+    }
+
+h1{
+
+font-size: 20px;
+font-weight: bold;
+    
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+
+    font-size: 1em;
+    display: block; 
+}
+
+
+
+.cont_link_heb:hover{
+
+    color: #0065FC;
+    border-top:#0065FC 3px solid;
+    
+}
+.cont_link_heb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_link_act{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.cont_link_act:hover{
+    color: #0065FC;
+    border-top: solid #0065FC 3px;
+}
+
+.recherche {
+    display: inline-flex;
+    max-width: 100%;
+    border: solid 1px #f2f2f2;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.span_location{
+
+    background-color: #f2f2f2;
+    padding: 16px;
+    text-align: center;
+    border-radius: 16px 0 0 16px;
+}
+
+.bt_search{
+
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 16px 16px 0;
+    border: none;
+    padding: 16px;
+}
+
+.ville{
+
+    border: #f2f2f2 2px;
+
+}
+
+
+
+.corps{
+
+    
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+
+
+.cont_heb{
+
+    padding: 32px 16px 32px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin-top: 80px;   
+    align-items: flex-start;
+ 
+
+}
+
+.A_propos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Nos_hébergements{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.Assistance{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+#Hébergements{
+
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+
+    
+}
+
+article{
+    background-color: #f2f2f2;
+    width: 66%;
+    min-height: 625px;
+    border-radius: 20px;
+    
+    
+}
+
+.tab{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+.cell{
+
+    margin-right: 0px;
+    width: 33%;
+    list-style: none;
+    border-color: white;
+    border: 4px;
+    
+}
+
+.slot{
+
+    display: flex block;
+    flex-direction: column;
+    width: 215px;
+    height: 180px;
+    background-color: #FFFFFF;
+    border: 3px  white;
+    border-radius: 10px;
+    padding: 4px 4px 0 4px;
+    margin: 16px;
+    box-shadow: 1px 1px 6px black;
+    text-decoration: none;
+
+}
+
+.miniature{
+
+height: 100px;
+width: 215px;
+
+}
+
+.minia{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #FFFFFF;
+    border-top: 4px white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.carte_heb:link{
+    text-decoration: none;
+}
+
+.carte_heb:visited{
+    color: black;
+}
+
+.carte_heb{
+    text-decoration: none;
+}
+
+.text_star{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+/* Par défaut, une étoile est en gris,
+   avec un padding et un curseur en forme de main. */
+.fa-star {
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+/* Si elle porte en plus la classe '.bleu', elle sera en bleu. */
+.fa-star.bleu {
+	color: #0065FC;
+}
+
+/* Le parent global '.jauge' positionne le groupe des étoiles et le lien en colonne */
+.jauge {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+
+
+/* Le groupe '.stars' positionne les étoiles
+		 les unes à côté des autres sans espacements. */
+.stars {
+    display: inline-flex;
+	justify-content: left;
+	font-size: 0.8em;
+	}
+
+aside{
+
+    width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    min-height: 625px;
+    min-width: 266px;
+}
+
+.aff{
+
+    align-self: flex-start;
+    justify-self: flex-start;
+
+}
+
+.filtres{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    justify-content: flex-start;
+    
+}
+
+.bloc_filtres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.rond{
+
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    margin: -2px;
+    border: 2px solid #d9d9d9;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    font-size: 1em;
+
+}
+
+.type_filtre{
+
+    margin: 0 16px 0 16px;
+    
+}
+
+.slot_filtre{
+
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin: 0 12px 0 12px;
+    
+}
+
+.slot_filtre:hover{
+
+    background-color: #0065FC;
+    color: white;
+    
+}
+
+.slot_filtre:active{
+
+    background-color: #0065FC;
+    color: white;
+    
+}
+
+.bloc_filtre{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.bloc_filtre:hover{
+    color: white;
+}
+
+.minia_pop{
+
+    height: 100%;
+    width: 120px;
+    padding: 4px;
+    border: 1px white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.img_pop{
+
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #FFFFFF;
+    /*padding: 4px ;*/
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px white;
+    
+
+}
+
+.pop{
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.titre_pop{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell_pop{
+
+    width: 100%;
+    list-style: none;
+    border-color: white;
+    border: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+
+.tab_pop {
+
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    padding: 32px;
+    justify-content: flex-start;
+    
+    
+}
+.descript_pop{
+
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.liste_pop{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+}
+
+.heb_prix_pop{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.pack{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.colonne_full{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 25%;
+    margin-right: 40px;
+}
+
+.colonne_split{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 25%;
+    margin-right: 40px;
+}
+
+.carte_act_full{
+
+    width: 100%;
+    height: 100%;
+    border: white 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+
+}
+
+.carte_act_66p{
+
+    width: 100%;
+    height: 210px;
+    border: white 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    margin-bottom: 40px;
+
+}
+
+.carte_act_33p{
+
+    width: 100%;
+    height: 150px;
+    border: white 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+
+}
+
+.carte_act_55p{
+
+    width: 100%;
+    height: 190px;
+    border: white 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    
+
+}
+
+.carte_act_45p{
+
+    width: 100%;
+    height: 175px;
+    border: white 3px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    margin-bottom: 35px;
+
+}
+
+.mini_act{
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 1px white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.text_act{
+    min-height: 2em;
+    padding-left: 10px;
+    height: 40px;
+    justify-content: center;
+}
+
+.img_act_full{
+    height: 350px;
+}
+.img_act_160px{
+    height: 160px;
+}
+.img_act_100px{
+    height: 100px;
+}
+.img_act_125px{
+    height: 125px;
+}
+.img_act_140px{
+    height: 140px;
+}
+
+.lien_activity{
+    text-decoration: none;
+}
+
+
+
+} /* fermeture media queries desktop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:768px) and (max-width:998px) {
+
+    header{
+
+        justify-content: space-between;
+        align-items: flex-end;
+        display: flex;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: white;
+        height: 50px;
+        z-index: 9999;
+        
+    }
+
+    .cont_logo{
+
+        padding-left: 50px;
+    }
+
+    h1{
+
+        font-size: 20px;
+        font-weight: bold;
+            
+        }
+        
+    h3{
+            font-size: 1em;
+            display: block;
+        }
+
+    h2{
+            font-size: 20px;
+            font-weight: bold;
+        }
+                
+        nav{
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 33%;
+            height: 100%;
+        }
+
+        .cont_link_heb:hover{
+
+            color: #0065FC;
+            border-top:#0065FC 3px solid;
+            
+        }
+        .cont_link_heb{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 47px;
+            width: 50%;
+        }
+        .cont_link_act{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 47px;
+            width: 50%;
+        }
+        
+        .cont_link_act:hover{
+            color: #0065FC;
+            border-top: solid #0065FC 3px;
+        }
+
+        
+        .recherche {
+            display: inline-flex;
+            max-width: 100%;
+            border: solid 1px #f2f2f2;
+            border-radius: 16px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 0;
+        }        
+        .span_location{
+        
+            background-color: #f2f2f2;
+            padding: 16px;
+            text-align: center;
+            border-radius: 16px 0 0 16px;
+        }
+        
+        .bt_search{
+        
+            background-color: #0065FC;
+            color: white;
+            font-weight: bold;
+            border-radius: 0 16px 16px 0;
+            border: none;
+            padding: 16px;
+        }
+        
+        .ville{
+        
+            border: #f2f2f2 2px;
+        
+        }
+        
+        
+        .corps{
+        
+            position:relative;
+            top: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            
+        }
+        
+        .cont_heb{
+        
+            padding: 32px 16px 32px 16px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        footer{
+        
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 0;
+            margin-top: 80px;    
+            align-items: flex-start;
+        
+        }
+        
+        
+        
+        #Hébergements{
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 40px;
+            flex-wrap: nowrap;
+            flex-direction: column-reverse;
+        
+            
+        }
+        
+        article{
+            background-color: #f2f2f2;
+            width: 100%;
+            min-height: 625px;
+            border-radius: 20px;
+            
+            
+        }
+        
+        .tab{
+        
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        
+        }
+        .cell{
+        
+            margin-right: 0px;
+            width: 33%;
+            list-style: none;
+            border-color: white;
+            border: 4px;
+            
+        }
+        
+        .slot{
+        
+            display: flex block;
+            flex-direction: column;
+            width: 100%;
+            height: 180px;
+            background-color: #FFFFFF;
+            border: 3px white;
+            border-radius: 10px;
+            padding: 4px 4px 0 4px;
+            margin-bottom: 16px;
+            box-shadow: 1px 1px 6px black;
+        
+        }
+        
+        .miniature{
+        
+        height: 60%;
+        width: 100%;
+        
+        }
+        
+        .minia{
+        
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: #FFFFFF;
+            border-top: 4px white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .carte_heb:link{
+            text-decoration: none;
+        }
+        
+        .carte_heb:visited{
+            color: black;
+        }
+        .carte_heb_pop{
+
+            width: 100%;
+        }
+
+        .carte_heb{
+
+            width: 40%;
+            padding: 5px;
+        }
+
+        
+        .text_star{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        /* Par défaut, une étoile est en gris,
+           avec un padding et un curseur en forme de main. */
+        .fa-star {
+            color: gray;
+            cursor: pointer;
+            padding: 0.0625rem;
+        }
+        /* Si elle porte en plus la classe '.bleu', elle sera en bleu. */
+        .fa-star.bleu {
+            color: #0065FC;
+        }
+        
+        /* Le parent global '.jauge' positionne le groupe des étoiles et le lien en colonne */
+        .jauge {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+        }
+        
+        
+        
+        /* Le groupe '.stars' positionne les étoiles
+                 les unes à côté des autres sans espacements. */
+        .stars {
+            display: inline-flex;
+            justify-content: left;
+            font-size: 0.8em;
+            }
+        
+        aside{
+        
+            width: 100%;
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .aff{
+        
+            align-self: flex-start;
+            justify-self: flex-start;
+        
+        }
+        
+        .filtres{
+
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            padding-bottom: 30px;
+            justify-content: flex-start;
+            
+        }
+        
+        .bloc_filtres{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }        
+        .rond{
+        
+            background-color: #DEEBFF;
+            display: flex;
+            align-items: center;
+            margin: -2px;
+            border: 2px solid #d9d9d9;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+            justify-content: center;
+            font-size: 1em;
+        
+        }
+        
+        .type_filtre{
+        
+            margin: 0 16px 0 16px;
+            
+        }
+        
+        .slot_filtre{
+        
+            display: flex;
+            align-items: center;
+            border: 2px solid #f2f2f2;
+            border-radius: 25px;
+            margin: 0 12px 0 12px;
+            
+        }
+        
+        .slot_filtre:hover{
+        
+            background-color: #0065FC;
+            color: white;
+            
+        }
+        
+        .slot_filtre:active{
+        
+            background-color: #0065FC;
+            color: white;
+            
+        }
+        
+        .bloc_filtre{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        .bloc_filtre:hover{
+            color: white;
+        }
+
+        .slot_pop{
+
+            width: 100%;
+            height: 150px;
+        }
+        
+        .minia_pop{
+        
+            height: 100%;
+            width: 25%;
+            padding: 4px;
+            border: 1px white;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+        
+        
+        }
+        
+        .img_pop{
+        
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: #FFFFFF;
+            /*padding: 4px ;*/
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border: 1px white;
+            
+        
+        }
+        
+        .pop{
+        
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .titre_pop{
+        
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .cell_pop{
+        
+            width: 100%;
+            list-style: none;
+            border-color: white;
+            border: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px;
+        
+        }
+        
+        
+        
+        .tab_pop {
+        
+            height: 100%;
+            flex-direction: column;
+            display: flex;
+            padding: 32px;
+            justify-content: flex-start;
+            
+            
+        }
+        .descript_pop{
+        
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+        }
+        
+        .liste_pop{
+        
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            height: 100%;
+            flex-wrap: wrap;
+        }
+        
+        .heb_prix_pop{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        
+        .pack{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        
+        .colonne_full{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 25%;
+            margin-right: 40px;
+        }
+        
+        .colonne_split{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 25%;
+            margin-right: 40px;
+        }
+        
+        .carte_act_full{
+        
+            width: 100%;
+            height: 100%;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px black;
+        
+        }
+        
+        .carte_act_66p{
+        
+            width: 100%;
+            height: 210px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px black;
+            margin-bottom: 40px;
+        
+        }
+        
+        .carte_act_33p{
+        
+            width: 100%;
+            height: 150px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px black;
+        
+        }
+        
+        .carte_act_55p{
+        
+            width: 100%;
+            height: 190px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px black;
+            
+        
+        }
+        
+        .carte_act_45p{
+        
+            width: 100%;
+            height: 175px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px black;
+            margin-bottom: 35px;
+        
+        }
+        
+        .mini_act{
+        
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .text_act{
+            min-height: 2em;
+            padding-left: 10px;
+            height: 40px;
+            justify-content: center;
+        }
+        
+        .img_act_full{
+            height: 350px;
+        }
+        .img_act_160px{
+            height: 160px;
+        }
+        .img_act_100px{
+            height: 100px;
+        }
+        .img_act_125px{
+            height: 125px;
+        }
+        .img_act_140px{
+            height: 140px;
+        }
+
+        .lien_activity{
+            text-decoration: none;
+        }
+
+        .A_propos{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .Nos_hébergements{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        
+        .Assistance{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:767px) {
+
+    h1{
+
+        font-size: 20px;
+        font-weight: bold;
+            
+        }
+        
+        h3{
+            font-size: 1.2em;
+            display: block;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        h2{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .slot_pop{
+            width: 100%;
+        }
+        
+        
+        .logo{
+        
+            justify-content: center;
+            height: 35px;
+        }
+        
+        header{
+        
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            background-color: white;
+            height: 50px;
+            z-index: 9999;
+                    
+        }
+        
+        nav{
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        
+        .cont_link_heb{
+        
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+            border-bottom:#d9d9d9 3px solid;
+            height: 100%;
+        }
+
+        .cont_link_heb:hover{
+
+            color: #0065FC;
+            border-bottom:#0065FC 3px solid;
+            
+        }
+
+
+        .lien_heb{
+            justify-content: center;
+        }
+        
+        
+        .lien_heb:active{
+        
+            color: #0065FC;
+            border-top:#0065FC 1px;
+            
+        }
+        
+        .lien_act:hover{
+        
+            color: #0065FC;
+            
+        }
+
+        .cont_link_act{
+
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+            border-bottom:#d9d9d9 3px solid;
+            height: 100%;
+
+        }
+
+        .cont_link_act:hover{
+
+        border-bottom:#0065FC solid 3px;
+
+        }
+
+        
+        .recherche{
+        
+            display: inline-flex;
+            max-width: 100%;
+            border: #f2f2f2 1px solid;
+            border-radius: 16px;
+            padding: 0px;
+            margin-top: 20px;
+        }
+        
+        .span_location{
+        
+            background-color: #f2f2f2;
+            padding: 16px;
+            text-align: center;
+            border-radius: 16px 0 0 16px;
+        }
+        
+        .bt_search{
+        
+            background-color: #0065FC;
+            color: white;
+            font-weight: bold;
+            border-radius: 0 16px 16px 0;
+            border: none;
+            padding: 16px;
+        }
+        
+        .ville{
+        
+            border: #f2f2f2 2px;
+        
+        }
+        
+        
+        .corps{
+        
+            position:relative;
+            top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+        }
+        
+        .cont_heb{
+        
+            /*padding: 32px 16px 32px 16px;*/
+            display: flex;
+            flex-direction: column;
+        }
+        
+        footer{
+        
+            background-color: #f2f2f2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 80px;    
+        
+        }
+
+        .A_propos{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .Nos_hébergements{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }     
+        
+        .Assistance{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+        
+        #Hébergements{
+        
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 40px;
+            flex-wrap: nowrap;
+            flex-direction: column-reverse;
+        
+            
+        }
+        
+        article{
+            background-color: white;
+            width: 100%;
+            min-height: 625px;
+            border-radius: 20px;
+            
+            
+        }
+        
+        .tab{
+        
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            
+        
+        }
+        /*.cell{
+        
+            margin-right: 0px;
+            width: 33%;
+            list-style: none;
+            border-color: white;
+            border: 4px;
+            
+        }*/
+        
+        .slot{
+        
+            display: flex block;
+            flex-direction: column;
+            width: 100%;
+            height: 200px;
+            background-color: #FFFFFF;
+            border: 3px white;
+            border-radius: 10px;
+            padding: 4px 4px 0 4px;
+            margin-bottom: 16px;
+            box-shadow: 1px 1px 6px #f2f2f2;
+        
+        }
+        
+        .miniature{
+        
+        height: 115px;
+        width: 100%;
+        
+        }
+        
+        .minia{
+        
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: #FFFFFF;
+            border-top: 4px white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .carte_heb{
+
+            width: 90%;
+            text-decoration: none;
+        }
+        
+
+        .carte_heb:link{
+            text-decoration: none;
+        }
+        
+        .carte_heb:visited{
+            color: black;
+        }
+        
+        .text_star{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        /* Par défaut, une étoile est en gris,
+           avec un padding et un curseur en forme de main. */
+        .fa-star {
+            color: gray;
+            cursor: pointer;
+            padding: 0.0625rem;
+        }
+        /* Si elle porte en plus la classe '.bleu', elle sera en bleu. */
+        .fa-star.bleu {
+            color: #0065FC;
+        }
+        
+        /* Le parent global '.jauge' positionne le groupe des étoiles et le lien en colonne */
+        .jauge {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-start;
+        }
+        
+        
+        
+        /* Le groupe '.stars' positionne les étoiles
+                 les unes à côté des autres sans espacements. */
+        .stars {
+            display: inline-flex;
+            justify-content: left;
+            font-size: 0.8em;
+            }
+        
+        aside{
+        
+            width: 100%;
+            background-color: #f2f2f2;
+            border-radius: 20px;
+        }
+        
+        .aff{
+        
+            align-self: flex-start;
+            justify-self: flex-start;
+        
+        }
+        
+        .filtres{
+        
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            padding-bottom: 30px;
+                        
+        }
+        
+        .rond{
+        
+            background-color: #DEEBFF;
+            display: flex;
+            align-items: center;
+            margin: -2px;
+            border: 2px solid #d9d9d9;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+            justify-content: center;
+            font-size: 1em;
+        
+        }
+        
+        .type_filtre{
+        
+            margin: 0 16px 0 16px;
+            
+        }
+        
+        .slot_filtre{
+        
+            display: flex;
+            align-items: center;
+            border: 2px solid #f2f2f2;
+            border-radius: 25px;
+            margin: 0 12px 0 12px;
+            margin-bottom: 10px;
+            
+        }
+        
+        .slot_filtre:hover{
+        
+            background-color: #0065FC;
+            color: white;
+            
+        }
+        
+        .slot_filtre:active{
+        
+            background-color: #0065FC;
+            color: white;
+            
+        }
+        
+        .bloc_filtre{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+
+        }
+        
+        .bloc_filtre:hover{
+            color: white;
+        }
+        
+        .minia_pop{
+        
+            width: 120px;
+            padding: 4px;
+            border: 1px white;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+                 
+        
+        }
+        
+        .img_pop{
+        
+            width: 95%;
+            height: 100%;
+            object-fit: cover;
+            background-color: #FFFFFF;
+            padding: 4px ;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+            border: 1px white;
+            
+        
+        }
+        
+        .pop{
+        
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+        .titre_pop{
+        
+            display: flex;
+            justify-content: space-between;
+            width:100%
+        }
+        
+        .cell_pop{
+        
+            width: 100%;
+            list-style: none;
+            border-color: white;
+            border: 4px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 10px;
+        
+        }
+        
+               
+        .tab_pop {
+        
+            height: 100%;
+            flex-direction: column;
+            display: flex;
+            padding: 5px;
+            justify-content: flex-start;
+            align-items: center;
+            
+            
+        }
+        .descript_pop{
+        
+            padding-left: 20px;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        
+        }
+        
+        .liste_pop{
+        
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            height: 100%;
+            width: 90%;
+        }
+        
+        .heb_prix_pop{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        
+        .pack{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        /*.colonne_full{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 25%;
+            margin-right: 40px;
+        }
+        
+        .colonne_split{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 25%;
+            margin-right: 40px;
+        }*/
+        
+        .carte_act_full{
+        
+            width: 100%;
+            height: 100%;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px #f2f2f2;
+            margin-bottom: 25px;
+        
+        }
+        
+        .carte_act_66p{
+        
+            width: 100%;
+            height: 190px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px #f2f2f2;
+            margin-bottom: 40px;
+            margin-bottom: 25px;
+
+        
+        }
+        
+        .carte_act_33p{
+        
+            width: 100%;
+            height: 190px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px #f2f2f2;
+            margin-bottom: 25px;
+
+        
+        }
+        
+        .carte_act_55p{
+        
+            width: 100%;
+            height: 190px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px #f2f2f2;
+            margin-bottom: 25px;
+
+        
+        }
+        
+        .carte_act_45p{
+        
+            width: 100%;
+            height: 190px;
+            border: white 3px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 6px #f2f2f2;
+            margin-bottom: 35px;
+            margin-bottom: 25px;
+
+        
+        }
+        
+        .mini_act{
+        
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            border: 1px white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .text_act{
+            min-height: 2em;
+            padding-left: 10px;
+            height: 55px;
+            display: flex;
+            align-items: center;
+
+        }
+        
+        .img_act_full{
+            height: 135px;
+        }
+        .img_act_160px{
+            height: 135px;
+        }
+        .img_act_100px{
+            height: 135px;
+        }
+        .img_act_125px{
+            height: 135px;
+        }
+        .img_act_140px{
+            height: 135px;
+        }
+
+        .lien_activity{
+            text-decoration: none;
+        }
+
+        .btn_search_mob{
+            display: block;
+        }
+
+        
+        .icon_search{
+            display: block;
+        }
+
+        .type_search{
+            display: none;
+        }
+
+        .bloc_filtres{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+}
+
